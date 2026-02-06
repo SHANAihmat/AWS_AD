@@ -24,13 +24,3 @@ Key scripts/modules:
 
 If any filename differs from the list above, please follow the actual filenames in this repository.
 
-## Installation
-
-### 1) Create an environment
-
-Example using `venv`:
-
-```bash
-python3.8 -m venv .venv
-source .venv/bin/activate
-pip install -U pip
