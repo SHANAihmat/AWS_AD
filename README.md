@@ -29,9 +29,9 @@ We provide ready-to-use scripts to reproduce the anomaly detection results.
 ```bash
 python main.py \
   --device cuda:0 \
-  --data_path /home/sh/data/MyCode/AWS_AD/data/numpy_Xinjiang \
-  --terrain_file /home/sh/data/MyCode/AWS_AD/data/DEM/Xinjiang.tif \
-  --station_info_path /home/sh/data/MyCode/AWS_AD/data/Xinjiang_station_info.json \
+  --data_path data/TemperateContinental \
+  --terrain_file data/DEM/TemperateContinental.tif \
+  --station_info_path data/TemperateContinental_station_info.json \
   --time_window 72 \
   --time_embedding_dim 32 \
   --num_layers 2 \
@@ -39,7 +39,7 @@ python main.py \
   --gnn_out_dim 360 \
   --mlp_hidden_dim 32 \
   --terrain_R 80 \
-  --runs 1 \
+  --runs 5 \
   --epochs 50 \
   --batch_size 16 \
   --learning_rate 1e-2 \
